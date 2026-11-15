@@ -1,0 +1,48 @@
+{
+  "modules": [
+    {
+      "id": "vn.lynk.hooks",
+      "name": "Lynk Hooks",
+      "type": "lsposed",
+      "version": "0.2.2",
+      "versionCode": 4,
+      "url": "https://github.com/fuhobucky/lynk-hub-releases/releases/download/modules/lynk-hooks-0.2.2.apk",
+      "sha256": "ebdc37254be5d69856f07f801baf911183fe8c02aca67f36d6fe92161e1c24d8",
+      "description": "Phím vô lăng cho Lynk Hub, chặn bản vá phím của Lunaris khi đã gỡ app, nút Home về Hub. Scope: android.car.input.service, SystemUI.",
+      "source": "https://github.com/fuhobucky/lynk-hub-releases"
+    },
+    {
+      "id": "zygisk_lsposed",
+      "name": "LSPosed (Zygisk)",
+      "type": "magisk",
+      "version": "v1.9.2 (7024)",
+      "versionCode": 7024,
+      "url": "https://github.com/fuhobucky/lynk-hub-releases/releases/download/modules/LSPosed-v1.9.2-7024-zygisk-release.zip",
+      "sha256": "0ebc6bcb465d1c4b44b7220ab5f0252e6b4eb7fe43da74650476d2798bb29622",
+      "description": "Khung LSPosed, cần cho Lynk Hooks và Play Automotive Hider. Bản chính thức v1.9.2 (GPL-3.0), giống bản đang cài trên HU. Cần bật Zygisk trong Magisk.",
+      "source": "https://github.com/LSPosed/LSPosed"
+    },
+    {
+      "id": "lynk_nopip",
+      "name": "Chặn PiP cho app dẫn đường",
+      "type": "magisk",
+      "version": "0.1",
+      "versionCode": 1,
+      "url": "https://github.com/fuhobucky/lynk-hub-releases/releases/download/modules/lynk-nopip-0.1.zip",
+      "sha256": "980551c81a58530b26082066d120dafdaa659e492130a87dc79f2541abf2a81c",
+      "description": "Không cho app dẫn đường tự vào PiP trên IHU732P (module của Lynk).",
+      "source": "https://github.com/fuhobucky/lynk-hub-releases"
+    },
+    {
+      "id": "vn.lynk.playfeatures",
+      "name": "Play Automotive Hider",
+      "type": "lsposed",
+      "version": "0.1-experimental",
+      "versionCode": 1,
+      "url": "https://github.com/fuhobucky/lynk-hub-releases/releases/download/modules/lynk-playfeatures-0.1.apk",
+      "sha256": "533afc715f0fd88045f14792dd796eaa10665c0ff610d3bee3197e8dc03bfcd4",
+      "description": "Giấu tính năng automotive khỏi Play Store/Play Services/Google để app điện thoại hiện là tương thích. Scope: Play Store, GMS, GSF, Google app.",
+      "source": "https://github.com/fuhobucky/lynk-hub-releases"
+    }
+  ]
+}
