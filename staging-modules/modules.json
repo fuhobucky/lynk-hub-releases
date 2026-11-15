@@ -54,6 +54,17 @@
       "sha256": "8d5db0beb0d31feaa8748a03efee92c71ba1ee42f4994a3fe7e9a42807ec5294",
       "description": "Phím media và âm lượng trên vô lăng (cầu nối ECARX Volume + MediaSession). Hub cố ý không đụng các phím này. Scope: android.car.input.service, ecarx.xsf.mediacenter, com.neusoft.carplay.",
       "source": "https://github.com/fuhobucky/lynk-hub-releases"
+    },
+    {
+      "id": "MGM",
+      "name": "Google Play (MindTheGapps 9.0)",
+      "type": "magisk",
+      "version": "v0.1",
+      "versionCode": 17,
+      "url": "https://github.com/fuhobucky/lynk-hub-releases/releases/download/modules/MGM-MindTheGapps-9.0.0-arm64-v0.1.zip",
+      "sha256": "0217c41d3cf128126514c7a3134489d85c5ac03c517e1102302cd3973359c8e8",
+      "description": "Google Play, Play Services và Google app cho Android 9 (MindTheGapps 9.0.0 arm64 20230922 qua MagiskGApps). Giống bản đang cài trên HU. ~130 MB, khởi động lại sau khi cài.",
+      "source": "https://magiskgapps.com/"
     }
   ]
 }
